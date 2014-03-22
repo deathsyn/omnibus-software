@@ -16,13 +16,13 @@
 #
 
 name "nginx"
-default_version "1.4.4"
+default_version "1.4.7"
 
 dependency "pcre"
 dependency "openssl"
 
 source :url => "http://nginx.org/download/nginx-#{version}.tar.gz",
-       :md5 => "5dfaba1cbeae9087f3949860a02caa9f"
+       :md5 => "aee151d298dcbfeb88b3f7dd3e7a4d17"
 
 relative_path "nginx-#{version}"
 
